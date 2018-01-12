@@ -11,9 +11,9 @@ public class Integers {
 		
 		int length = String.valueOf(num1).length(); //used this to deterimine number of digits that the user inputs
 		
-		while (String.valueOf(num2).length() != (String.valueOf(num1).length())) { //while loop  ensures the numbers are of eqal length
+		while (String.valueOf(num2).length() != (String.valueOf(num1).length())) { //while loop  ensures the numbers are of equal length for the task to work properly
 			
-			System.out.print("Length of second number must = length of first number. Please try again.");
+			System.out.print("Length of second number must = length of first number. Please try again."); 
 			num2 = input.nextInt();
 			
 		}
